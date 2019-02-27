@@ -1,0 +1,26 @@
+{
+  "name": "abnchat-server",
+  "description": "",
+  "version": "1.0.0",
+  "author": "asule <asepsulaeman90@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mariadb": "^2.0.3",
+    "mongoose": "^5.2.10",
+    "mysql": "^2.16.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
